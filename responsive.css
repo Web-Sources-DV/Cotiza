@@ -1,0 +1,39 @@
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 600px) {
+    .services-grid,
+    .requirements-grid,
+    .help-grid {
+        grid-template-columns: 1fr;
+    }
+    .header-text h1 {
+        font-size: 1.2rem;
+    }
+    .pdf-banner {
+        flex-direction: column;
+        text-align: center;
+    }
+    .pdf-banner .banner-title {
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+    .filter-row {
+        flex-direction: column;
+    }
+    .filter-row input,
+    .filter-row select {
+        flex: 1 1 auto;
+    }
+    .quote-actions {
+        flex-direction: column;
+    }
+    .action-btn {
+        width: 100%;
+        justify-content: center;
+    }
+    .modal-content {
+        padding: 1.5rem;
+        width: 95%;
+    }
+}

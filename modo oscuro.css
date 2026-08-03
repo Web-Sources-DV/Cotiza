@@ -1,0 +1,29 @@
+/* ============================================================
+   MODO OSCURO
+   ============================================================ */
+body.dark-mode {
+    --bg: #121212;
+    --card-bg: #1e1e1e;
+    --text: #e0e0e0;
+    --border: #444;
+    --shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+body.dark-mode .observations-info {
+    background: #2a2a2a;
+}
+
+/* Ajustes adicionales para inputs y selects en modo oscuro */
+body.dark-mode select,
+body.dark-mode input,
+body.dark-mode textarea {
+    background: #2a2a2a;
+    border-color: #444;
+    color: #e0e0e0;
+}
+body.dark-mode select:focus,
+body.dark-mode input:focus,
+body.dark-mode textarea:focus {
+    background: #333;
+    border-color: var(--gold);
+}

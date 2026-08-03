@@ -1,0 +1,10 @@
+[
+  { "name": "Impuesto Al Estado" },
+  { "name": "Honorarios" },
+  { "name": "Gastos Administrativos" },
+  { "name": "Notificación" },
+  { "name": "Tribunal" },
+  { "name": "Honorarios + Membresia" },
+  { "name": "Multa" },
+  { "name": "Descuento" }
+]
